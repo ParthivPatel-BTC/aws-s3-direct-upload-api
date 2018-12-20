@@ -1,5 +1,11 @@
+# Setup
 
-Configure the S3 details in the /app/services/upload_presigner.rb
+
+Configure below S3 details in the `/app/services/upload_presigner.rb`
+- AWS_ACCESS_KEY_ID
+- AWS_SECRET_ACCESS_KEY
+- AWS_REGION
+- BUCKET_NAME
 
 Pass the filename parameter and method from the **Postman** as below.
 
