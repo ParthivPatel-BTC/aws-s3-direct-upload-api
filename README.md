@@ -7,13 +7,12 @@ Configure below S3 details in the `/app/services/upload_presigner.rb`
 - AWS_REGION
 - BUCKET_NAME
 
-Pass the filename parameter and method from the **Postman** as below.
+Pass the parameters from the **Postman** as below.
 
 - Method : POST
 - Format(Select radio button) : format-data
 - Body:
   - key: filename
   - value: Choose File(Select file tag)
-  - Send# aws-s3-direct-upload-api
 
 - Send
